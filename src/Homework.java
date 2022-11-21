@@ -15,9 +15,7 @@ public class Homework {
 
         //Задача №4.
         String fullNameCourier = "Иванов Семён Семёнович";
-        System.out.println("Данные ФИО сотрудника - " + fullNameCourier.replace("ё", "е"));
-
-        //Задача №4 со методами split и contains
+        //System.out.println("Данные ФИО сотрудника - " + fullNameCourier.replace("ё", "е"));
         String[] fullNameCourierArr = fullNameCourier.split(" ");
         System.out.print("Данные ФИО сотрудника - ");
         for (String Name : fullNameCourierArr) {
